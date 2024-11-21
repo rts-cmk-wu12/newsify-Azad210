@@ -1,1 +1,1 @@
-import html from "./html/index.html";
+import "./scss/style.scss";
