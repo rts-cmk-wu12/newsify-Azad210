@@ -64,6 +64,23 @@
   justify-content: center;
   font-size: 18px;
 }
+.container .frontpage-logo {
+  width: 100px;
+  height: auto;
+  animation: growLogo 1s ease forwards;
+}
+@keyframes growLogo {
+  0% {
+    width: 100px;
+  }
+  100% {
+    width: 200px;
+  }
+}
+.container .frontpage-text {
+  font-size: 48px;
+  font-weight: bold;
+}
 .container .sign-btn {
   background-color: #4D861F;
   width: 345px;
@@ -403,6 +420,8 @@ nav {
   margin: 0;
   height: 60px;
   font-weight: bold;
+  display: flex;
+  justify-content: space-between;
 }
 .faq-section .faq li {
   border-bottom: 1px solid #C5C5C5;
@@ -417,6 +436,8 @@ nav {
   cursor: pointer;
   gap: 10px;
   padding-left: 20px;
+  justify-content: space-between;
+  width: 100%;
 }
 .faq-section .arrow {
   display: inline-block;
@@ -430,7 +451,9 @@ nav {
 }
 .faq-section .arrow-box {
   display: flex;
-  margin: 0 auto;
+  align-items: center;
+  margin-left: auto;
+  padding-right: 20px;
 }
 .faq-section .a {
   overflow: hidden;
