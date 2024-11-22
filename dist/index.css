@@ -70,7 +70,7 @@ body {
 .container .frontpage-logo {
   width: 100px;
   height: auto;
-  animation: growLogo 1s ease forwards;
+  animation: growLogo 2s ease forwards;
   display: flex;
 }
 @keyframes growLogo {
@@ -252,8 +252,8 @@ nav {
   gap: 40px;
   margin: 0 auto;
   align-items: center;
-  justify-content: center;
   box-shadow: 0 -20px 20px rgba(0, 0, 0, 0.066);
+  justify-content: center;
 }
 
 .slideshow-container {
