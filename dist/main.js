@@ -15,7 +15,7 @@
   \************************/
 /***/ (() => {
 
-eval("setInterval(switchToOnboarding, \"2000\");\n\nfunction switchToOnboarding() {\n  window.location.href = \"onboarding.html\";\n}\n\n\n//# sourceURL=webpack://newsify-azad210/./src/js/home.js?");
+eval("setInterval(switchToOnboarding, \"3000\");\n\nfunction switchToOnboarding() {\n  window.location.href = \"onboarding.html\";\n}\n\n\n//# sourceURL=webpack://newsify-azad210/./src/js/home.js?");
 
 /***/ })
 

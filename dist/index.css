@@ -14,8 +14,9 @@
 }
 
 .container {
-  width: 393px;
-  min-height: 100dvh;
+  max-width: 393px;
+  height: 100dvh;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
