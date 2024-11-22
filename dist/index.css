@@ -247,7 +247,7 @@ p {
 
 nav {
   height: 90px;
-  width: 393px;
+  max-width: 393px;
   display: flex;
   margin: 0 auto;
   gap: 50px;
@@ -257,7 +257,7 @@ nav {
 }
 
 .slideshow-container {
-  width: 393px;
+  max-width: 393px;
   margin-top: 38px;
   margin: 0 auto;
   margin-top: 20px;
